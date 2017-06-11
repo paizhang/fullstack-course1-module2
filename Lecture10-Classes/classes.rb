@@ -1,4 +1,4 @@
-class Person 
+class Person
   def initialize (name, age) # "CONSTRUCTOR" 
     @name = name 
     @age = age 

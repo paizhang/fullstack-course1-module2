@@ -1,12 +1,12 @@
-class Person 
+class Person # Initially, all instance variables are all private
   def initialize (name, age) # "CONSTRUCTOR" 
     @name = name 
     @age = age 
   end 
-  def name 
+  def name   # Getter for @name variable, just use the same name as variable
     @name 
   end 
-  def name= (new_name) 
+  def name= (new_name)  # Setter for @name variable
     @name = new_name 
   end 
 end 
